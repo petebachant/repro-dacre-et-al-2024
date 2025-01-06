@@ -1,0 +1,7 @@
+stages:
+  main:
+    cmd: Rscript RMR_analysis.R
+    deps:
+      - RMR_analysis.R
+      - renv.lock
+      - RMR_Data_DDacre.xlsx
