@@ -9,6 +9,11 @@ environments:
     kind: renv
     path: renv.lock
     prefix: renv
+  docker:
+    kind: docker
+    path: Dockerfile
+    image: repro-dacre-et-al-2024
+    platform: linux/amd64
 datasets:
   - path: RMR_Data_DDacre.xlsx
     title: Data
