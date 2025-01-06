@@ -1,6 +1,8 @@
 dependencies:
   - r # brew install r
   - renv # Rscript -e "install.packages('renv')"
+  - xquartz:
+      platform: macos
 environments:
   r:
     kind: renv
