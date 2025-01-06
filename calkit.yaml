@@ -1,8 +1,12 @@
 dependencies:
-  - r
-  - renv
+  - r # brew install r
+  - renv # Rscript -e "install.packages('renv')"
 environments:
   r:
     kind: renv
     path: renv.lock
     prefix: renv
+datasets:
+  - path: RMR_Data_DDacre.xlsx
+    title: Data
+    description:
