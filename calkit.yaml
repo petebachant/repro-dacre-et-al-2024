@@ -1,0 +1,8 @@
+dependencies:
+  - r
+  - renv
+environments:
+  r:
+    kind: renv
+    path: renv.lock
+    prefix: renv
