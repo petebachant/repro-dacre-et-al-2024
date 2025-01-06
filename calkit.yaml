@@ -1,3 +1,4 @@
+kind: reproduction
 dependencies:
   - r # brew install r
   - renv # Rscript -e "install.packages('renv')"
