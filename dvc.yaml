@@ -1,6 +1,6 @@
 stages:
   main:
-    cmd: Rscript RMR_analysis.R
+    cmd: Rscript -e "renv::restore()" && Rscript RMR_analysis.R
     deps:
       - RMR_analysis.R
       - renv.lock
