@@ -1,0 +1,63 @@
+[
+    {
+        "RepoTags": [
+            "repro-dacre-et-al-2024:latest"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2025-01-06T21:00:45.224642125Z",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LC_ALL=en_US.UTF-8",
+                "LANG=en_US.UTF-8",
+                "DEBIAN_FRONTEND=noninteractive",
+                "TZ=UTC"
+            ],
+            "Cmd": [
+                "/bin/bash"
+            ],
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+                "org.label-schema.license": "GPL-2.0",
+                "org.label-schema.vcs-url": "https://github.com/rocker-org/",
+                "org.label-schema.vendor": "Rocker Project",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 679976169,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:80098e3d304cd7858ad97b310cd16083fbe6fab2968be7a988fc6894cb85dc25",
+                "sha256:c600504913706c9098b57e4ad63431f40785326bf51131c457fdf3a084ef36da",
+                "sha256:1fb98d90e0f644654da428c9c0be9fa8235e8a2a5f32c65e7c3525004afec6f5",
+                "sha256:6ed7f0a966876ddf5cb85e5526c5428fe75f268e690dddc7dd948fa05287f802",
+                "sha256:2d4f07d972c69e04109237a78d0ad66c69afa87219b36d9e21d90844295abd8a"
+            ]
+        },
+        "DockerfileMD5": "aaf59ee7abc459d51ea332cc8b0f2d04"
+    }
+]
