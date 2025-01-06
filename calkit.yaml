@@ -12,3 +12,26 @@ datasets:
   - path: RMR_Data_DDacre.xlsx
     title: Data
     description:
+publications:
+  - path: paper/paper.pdf
+    title: >
+      The effects of diet and semiochemical exposure on male
+      Bactrocera dorsalis (Hendel) (Diptera: Tephritidae)
+      metabolic rate at a range of temperatures
+    authors:
+      - Dylan C. Dacre
+      - Frances D. Duncan
+      - Christopher W. Weldon:
+          email: cwweldon@zoology.up.ac.za
+          corresponding_author: true
+    published: 2024-10-31
+    doi: 10.1016/j.jinsphys.2024.104718
+releases:
+  v1:
+    kind: project
+    git_rev: ec1935dfb827f60bd4607d1e80f99792c7d2845a
+    doi: 10.25403/UPresearchdata.27314991.v1
+    paths:
+      - RMR_analysis.R
+      - RMR_analysis.Rproj
+      - RMR_Data_DDacre.xlsx
